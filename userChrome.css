@@ -1,0 +1,40 @@
+#TabsToolbar {
+  margin-left: 35vw !important;
+  margin-right: -34px !important;
+}
+
+#nav-bar {  
+  margin-right: 65vw !important;
+  margin-top: -42px !important;
+}
+
+#TabsToolbar, #nav-bar {
+  background: transparent !important;
+  min-height: 42px !important;
+  max-height: 42px !important;
+} 
+
+.tabbrowser-tab {
+  min-height: 41px !important;
+  max-height: 41px !important;
+}
+
+/* Main menu to the left */
+#PanelUI-button { 
+  -moz-box-ordinal-group: 0 !important;
+  border: none !important;
+}
+
+#appMenu-popup {
+  margin-right: -258px !important;
+}
+
+#appMenu-popup .panel-arrow {
+  margin-right: 248px !important;
+}
+
+/* small scroll bar */
+toolbarbutton#alltabs-button {
+  -moz-binding: url("userChrome.xml");
+}
+
