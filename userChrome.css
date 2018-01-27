@@ -1,26 +1,44 @@
 #TabsToolbar {
-  margin-left: 35vw !important;
+  margin-left: 40vw !important;
   margin-right: -34px !important;
 }
 
-#nav-bar {  
-  margin-right: 65vw !important;
-  margin-top: -42px !important;
+#nav-bar {
+  margin-right: 60vw !important;
+  margin-top: -43px !important;
 }
 
 #TabsToolbar, #nav-bar {
   background: transparent !important;
   min-height: 42px !important;
   max-height: 42px !important;
-} 
+}
 
 .tabbrowser-tab {
   min-height: 41px !important;
   max-height: 41px !important;
 }
 
+.tabbrowser-tab[selected="true"] {
+  font-weight: bold !important;
+}
+
+.tab-background[selected="true"] {
+  background-image: none !important;
+  background-color: -moz-win-accentcolor !important;
+  color: -moz-win-accentcolortext !important;
+}
+
+.tab-line, .tab-line[selected="true"] {
+  background-color: transparent !important;
+}
+
+#urlbar[focused="true"] {
+  border: solid 1px #777 !important;
+}
+
 /* Main menu to the left */
-#PanelUI-button { 
+#PanelUI-button {
   -moz-box-ordinal-group: 0 !important;
   border: none !important;
 }
