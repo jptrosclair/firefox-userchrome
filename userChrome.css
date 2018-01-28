@@ -37,6 +37,10 @@
   border: solid 1px #777 !important;
 }
 
+#identity-icon-labels {
+  display: none !important;
+}
+
 /* Main menu to the left */
 #PanelUI-button {
   -moz-box-ordinal-group: 0 !important;
